@@ -51,7 +51,7 @@ def animated_text(text, speed=0.05):
         displayed_text += letter
         placeholder.markdown(
             f"""
-            <h1 style="text-align:center; color: #007BFF;">✨ {displayed_text}</h1>
+            <h1 style="text-align:center; color: #007BFF;"> {displayed_text}</h1>
             """,
             unsafe_allow_html=True
         )
