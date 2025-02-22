@@ -3,7 +3,7 @@ import time
 import google.generativeai as genai
 
 # Configure Gemini API Key
-genai.configure(api_key="YOUR_GEMINI_API_KEY")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyD7zV3BLjzdWbtMk9peFEsmkd3kUIMiQeY")
 
 # Set page config
 st.set_page_config(page_title="GenAI Code Fixer", layout="wide")
